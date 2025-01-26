@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #000;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        ul li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="medidas.html">Medidas</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
+                <li><a href="agenda.html">Agenda 2030</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <p><strong>Ajuntament de Montcada i Reixac</strong></p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                <label for="archivo">Subir archivo:</label>
+                <input type="file" id="archivo" name="archivo">
+    
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Av. de la Unitat, 6 - 08110 Montcada i Reixac</p>
+            <p>Tel. 935 726 474</p>
+            <p>Correo electrónico: <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=oac@montcada.org">oac@montcada.org</a></p>
+            <ul>
+                <li><a href="https://www.montcada.cat/serveis-i-tramits/instancia/">Instància electrònica</a></li>
+                <li><a href="https://seu.montcada.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO&DETALLE=6269099636276978305000">Tràmit de queixes, suggeriments i agraïments</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2024 Ayuntamiento Montcada i Reixac</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/ajmontcada"><img src="logo facebook.png" alt="Facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/ajmontcada/" target="_blank"><img src="logo instagram.png" alt="Instagram"></a>
+            <a href="https://x.com/ajmontcada"><img src="logo twitter.png" alt="Twitter" target="_blank"></a>
+        </div>
+    </footer>
+</body>
+</html>
